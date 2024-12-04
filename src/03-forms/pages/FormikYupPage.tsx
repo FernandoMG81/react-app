@@ -51,7 +51,6 @@ export const FormikYupPage = () => {
         {touched.email && errors.email && <span>{errors.email}</span>}
 
 
-
         <button type='submit'>Submit</button>
       </form>
     </div>
